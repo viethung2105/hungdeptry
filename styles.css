@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif; /* Giữ phông chữ hiện đại */
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Màu nền xanh nhẹ tươi mát */
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61; /* Màu cam sáng vui tươi */
+    color: white; /* Màu chữ trắng nổi bật */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    padding: 15px;
+    text-align: center;
+    background-color: #26a69a; /* Màu xanh ngọc tươi sáng */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Màu vàng tươi sáng */
+    color: #333; /* Màu chữ tối để dễ đọc */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffa000; /* Màu vàng đậm hơn khi hover */
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffff; /* Màu nền trắng sạch sẽ */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff6f61; /* Màu cam sáng giống header */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
